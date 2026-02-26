@@ -165,6 +165,11 @@
   .btn-success:hover {
     background: #27ae60;
   }
+
+  .btn-sm {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
   
   table {
     width: 100%;
@@ -229,6 +234,31 @@
     outline: none;
     border-color: #3498db;
     box-shadow: 0 0 0 3px rgba(52,152,219,0.12);
+  }
+
+  .form-card,
+  .summary-card {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  }
+
+  .summary-card p {
+    margin: 6px 0;
+  }
+
+  .section-title {
+    font-size: 1.1rem;
+    color: #2c3e50;
+    margin-bottom: 12px;
+  }
+
+  .tools-message {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    color: #2c3e50;
   }
   
   .alert {
